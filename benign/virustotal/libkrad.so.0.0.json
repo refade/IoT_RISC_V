@@ -1,0 +1,971 @@
+{
+    "info": {
+        "added": 1626900879.793891, 
+        "started": 1627037143.933501, 
+        "duration": 0, 
+        "ended": 1627037144.273485, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2323492, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": null, 
+        "custom": null, 
+        "machine": {}, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "01ad1242acbf111a69647ba0b4016be479a2692d", 
+            "name": "libkrad.so.0.0", 
+            "type": "ELF 64-bit LSB shared object, UCB RISC-V, version 1 (SYSV), dynamically linked, BuildID[sha1]=56d976a1457e2266f89637374dde3d154c8b9f9e, stripped", 
+            "sha256": "05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b", 
+            "urls": [], 
+            "crc32": "846F7A3C", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b", 
+            "ssdeep": null, 
+            "size": 41344, 
+            "sha512": "705e2c7e2adb2c7df3d1c3ea97459b585237214b2a6b65e540f3798f0916c102bf67dc53f0060ba82f2034673f78dbab8c753729a8fe845c6c7f7a8d5fb5e181", 
+            "md5": "539ac9576e796d13898d1dfeea7a758f"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "9130cd12-1b5c-41db-81ea-a218dace9ea6", 
+        "parent_file_sha256": null, 
+        "name": "05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b", 
+        "scan_date": 1627026379, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "probes_total": 16, 
+        "file_infos": {
+            "mimetype": "ELF 64-bit LSB shared object, UCB RISC-V, version 1 (SYSV)", 
+            "sha1": "01ad1242acbf111a69647ba0b4016be479a2692d", 
+            "tags": [], 
+            "timestamp_first_scan": 1625284327.72, 
+            "timestamp_last_scan": 1627026539.54, 
+            "sha256": "05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b", 
+            "md5": "539ac9576e796d13898d1dfeea7a758f", 
+            "size": 41344
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-06-08_09"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18300.4", 
+                    "results": null, 
+                    "virus_database_version": "1.343.1173.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.23, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-05-05"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.94, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6087dbf0-1e845 (2021-04-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": -1, 
+                    "duration": 3.25, 
+                    "version": "unavailable", 
+                    "virus_database_version": "unavailable", 
+                    "error": "/opt/forticlient/scan.sh: line 8: 1740940 Segmentation fault      (core dumped) \"$scanbin\" -s \"$vir_sig\" -o \"$tmpdir\" --unit \"${forti}/\" -d \"$1\""
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.0, 
+                    "version": "8.3.62.226", 
+                    "results": null, 
+                    "virus_database_version": "8.18.36.236"
+                }, 
+                "Kaspersky (Windows)": {
+                    "status": 0, 
+                    "duration": 3.45, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-07-21 19:18:00 (full)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.8, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "9966"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 11.6, 
+                    "version": "5.74.0", 
+                    "results": null, 
+                    "virus_database_version": "5.83 (23 March 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.08, 
+                    "version": "11.1.9.2103151924", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26190"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.31, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.88854 (16/06/2021)"
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.1.0.10606", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Bitdefender Antivirus Scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.2, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "0c24653f-dd84-4bdf-bf78-64e959d7d0dd", 
+        "file_sha256": "05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.9899", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.409.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "2.10.2019.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210624"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "ALYac": {
+                "detected": false, 
+                "version": "1.1.3.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "4.2.2.27", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.4410", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210716"
+            }, 
+            "Sangfor": {
+                "detected": false, 
+                "version": "2.9.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210625"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.194.37763", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.194.37763", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190318"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.3.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Symantec": {
+                "detected": false, 
+                "version": "1.15.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "23643", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "21.1.5827.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "ClamAV": {
+                "detected": false, 
+                "version": "0.103.3.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "21.0.1.45", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.146.25311", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.26", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.21.179", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "1.3.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "33719", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.49.9080", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "VIPRE": {
+                "detected": false, 
+                "version": "94068", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2019.1.2+3728", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "32.44.1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.30316B:27.23756", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210716"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.12", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2019.9.16.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2017.9.26.565", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.18400.3", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Gridinsoft": {
+                "detected": false, 
+                "version": "1.0.48.141", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.886", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "210717-00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Cynet": {
+                "detected": false, 
+                "version": "4.0.0.27", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.20.4.10148", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Acronis": {
+                "detected": false, 
+                "version": "1.1.1.82", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210512"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2021-07-17.02", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "5.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210716"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "0.0.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210716"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210716"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "MaxSecure": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "6.2.142.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "BitDefenderTheta": {
+                "detected": false, 
+                "version": "7.2.37796.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210713"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1300", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210717"
+            }
+        }, 
+        "scan_id": "05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b-1626560910", 
+        "sha1": "01ad1242acbf111a69647ba0b4016be479a2692d", 
+        "resource": "539ac9576e796d13898d1dfeea7a758f", 
+        "response_code": 1, 
+        "scan_date": "2021-07-17 22:28:30", 
+        "permalink": "https://www.virustotal.com/gui/file/05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b/detection/f-05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b-1626560910", 
+        "summary": {
+            "positives": 0, 
+            "permalink": "https://www.virustotal.com/gui/file/05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b/detection/f-05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b-1626560910", 
+            "scan_date": "2021-07-17 22:28:30"
+        }, 
+        "sha256": "05a1c3eb58754ac887b7766307e27074d21f7f2c49bab9333a16e0b27796e56b", 
+        "normalized": [], 
+        "total": 60, 
+        "positives": 0, 
+        "verbose_msg": "Scan finished, information embedded", 
+        "md5": "539ac9576e796d13898d1dfeea7a758f"
+    }, 
+    "network": {
+        "mitm": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "debug": {
+        "action": [
+            "vmrouting"
+        ], 
+        "dbgview": [], 
+        "errors": [
+            "Error processing task #2323492: it appears that the Virtual Machine hasn't been able to contact back to the Cuckoo Host. There could be a few reasons for this, please refer to our documentation on the matter: https://cuckoo.sh/docs/faq/index.html#troubleshooting-vm-network-configuration"
+        ], 
+        "log": [], 
+        "cuckoo": [
+            "2021-07-23 10:19:54,206 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:20:04,232 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:20:14,263 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:20:24,292 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:20:34,313 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:20:44,343 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:20:54,368 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:21:04,394 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:21:14,419 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:21:24,444 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:21:34,470 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:21:44,494 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:21:54,528 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:22:04,558 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:22:14,585 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:22:24,609 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:22:34,634 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:22:44,658 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:22:54,684 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:23:04,709 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:23:14,734 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:23:24,751 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:23:34,777 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:23:44,804 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:23:54,829 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:24:04,855 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:24:14,879 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:24:24,906 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:24:34,934 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:24:44,961 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:24:54,986 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:25:05,011 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:25:15,035 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:25:25,059 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:25:35,085 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:25:45,110 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:25:55,131 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:26:05,158 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:26:15,185 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:26:25,208 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:26:35,238 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:26:45,261 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:26:55,286 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:27:05,321 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:27:15,349 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:27:25,374 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:27:35,429 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:27:45,470 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:27:55,506 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:28:05,541 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:28:15,563 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:28:25,594 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:28:35,632 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:28:45,671 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:28:55,703 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:29:05,719 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:29:15,743 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:29:25,769 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:29:35,796 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:29:45,823 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:29:55,856 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:30:05,903 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:30:15,941 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:30:25,977 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:30:36,003 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:30:46,032 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:30:56,074 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:31:06,121 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:31:16,164 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:31:26,204 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:31:36,221 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:31:46,246 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:31:56,271 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:32:06,299 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:32:16,337 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:32:26,372 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:32:36,403 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:32:46,450 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:32:56,489 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:33:06,519 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:33:16,543 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:33:26,566 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:33:36,591 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:33:46,623 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:33:56,647 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:34:06,672 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:34:16,704 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:34:26,733 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:34:36,754 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:34:46,784 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:34:56,822 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:35:06,864 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:35:16,944 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:35:26,974 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:35:37,000 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:35:47,026 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:35:57,051 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:36:07,076 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:36:17,100 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:36:27,125 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:36:37,150 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:36:47,171 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:36:57,193 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:37:07,218 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:37:17,238 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:37:27,253 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:37:37,269 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:37:47,294 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:37:57,316 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:38:07,342 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:38:17,427 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:38:27,453 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:38:37,478 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:38:47,503 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:38:57,527 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:39:07,551 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:39:17,576 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:39:27,603 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:39:37,778 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:39:47,797 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:39:57,826 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n", 
+            "2021-07-23 10:40:07,852 [cuckoo.core.scheduler] DEBUG: Task #2323492: no machine available yet\n"
+        ]
+    }, 
+    "strings": [
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "__stack_chk_guard", 
+        "memset", 
+        "memcpy", 
+        "strlen", 
+        "calloc", 
+        "FIPS_mode", 
+        "krb5_free_checksum_contents", 
+        "__explicit_bzero_chk", 
+        "krb5_free_data_contents", 
+        "krb5_c_make_checksum", 
+        "__stack_chk_fail", 
+        "krad_attr_name2num", 
+        "strcmp", 
+        "krad_attr_num2name", 
+        "krad_attrset_new", 
+        "krad_attrset_free", 
+        "krad_attrset_add", 
+        "__memcpy_chk", 
+        "krad_attrset_add_number", 
+        "krad_attrset_del", 
+        "krad_attrset_get", 
+        "krad_attrset_copy", 
+        "__errno_location", 
+        "krad_client_new", 
+        "krad_client_free", 
+        "krad_client_send", 
+        "strdup", 
+        "strrchr", 
+        "getaddrinfo", 
+        "snprintf", 
+        "freeaddrinfo", 
+        "krad_code_name2num", 
+        "krad_code_num2name", 
+        "krad_packet_bytes_needed", 
+        "krad_packet_free", 
+        "krad_packet_new_request", 
+        "krb5_c_random_make_octets", 
+        "krad_packet_new_response", 
+        "krad_packet_decode_request", 
+        "krad_packet_decode_response", 
+        "memcmp", 
+        "krad_packet_encode", 
+        "krad_packet_get_code", 
+        "krad_packet_get_attr", 
+        "verto_del", 
+        "verto_add_timeout", 
+        "verto_set_private", 
+        "verto_get_flags", 
+        "verto_set_flags", 
+        "verto_add_io", 
+        "socket", 
+        "connect", 
+        "verto_get_private", 
+        "verto_get_fd_state", 
+        "verto_get_fd", 
+        "sendto", 
+        "strncmp", 
+        "libkrb5.so.3", 
+        "libk5crypto.so.3", 
+        "libcom_err.so.2", 
+        "libkrb5support.so.0", 
+        "libcrypto.so.1.1", 
+        "libkeyutils.so.1", 
+        "libresolv.so.2", 
+        "libselinux.so.1", 
+        "libdl.so.2", 
+        "libverto.so.1", 
+        "libc.so.6", 
+        "ld-linux-riscv64-lp64d.so.1", 
+        "libkrad.so.0", 
+        "krad_0_MIT", 
+        "HIDDEN", 
+        "OPENSSL_1_1_0", 
+        "k5crypto_3_MIT", 
+        "krb5_3_MIT", 
+        "GLIBC_2.27", 
+        "User-Name", 
+        "User-Password", 
+        "CHAP-Password", 
+        "NAS-IP-Address", 
+        "NAS-Port", 
+        "Service-Type", 
+        "Framed-Protocol", 
+        "Framed-IP-Address", 
+        "Framed-IP-Netmask", 
+        "Framed-Routing", 
+        "Filter-Id", 
+        "Framed-MTU", 
+        "Framed-Compression", 
+        "Login-IP-Host", 
+        "Login-Service", 
+        "Login-TCP-Port", 
+        "Reply-Message", 
+        "Callback-Number", 
+        "Callback-Id", 
+        "Framed-Route", 
+        "Framed-IPX-Network", 
+        "Vendor-Specific", 
+        "Session-Timeout", 
+        "Idle-Timeout", 
+        "Termination-Action", 
+        "Called-Station-Id", 
+        "Calling-Station-Id", 
+        "NAS-Identifier", 
+        "Proxy-State", 
+        "Login-LAT-Service", 
+        "Login-LAT-Node", 
+        "Login-LAT-Group", 
+        "Framed-AppleTalk-Link", 
+        "Framed-AppleTalk-Network", 
+        "Framed-AppleTalk-Zone", 
+        "CHAP-Challenge", 
+        "NAS-Port-Type", 
+        "Port-Limit", 
+        "Login-LAT-Port", 
+        "radius", 
+        "Access-Request", 
+        "Access-Accept", 
+        "Access-Reject", 
+        "Accounting-Request", 
+        "Accounting-Response", 
+        "Accounting-Status", 
+        "Password-Request", 
+        "Password-Ack", 
+        "Password-Reject", 
+        "Accounting-Message", 
+        "Access-Challenge", 
+        "Status-Server", 
+        "Status-Client", 
+        "Resource-Free-Request", 
+        "Resource-Free-Response", 
+        "Resource-Query-Request", 
+        "Resource-Query-Response", 
+        "Alternate-Resource-Reclaim-Request", 
+        "NAS-Reboot-Request", 
+        "NAS-Reboot-Response", 
+        "Next-Passcode", 
+        "New-Pin", 
+        "Terminate-Session", 
+        "Password-Expired", 
+        "Event-Request", 
+        "Event-Response", 
+        "Disconnect-Request", 
+        "Disconnect-Ack", 
+        "Disconnect-Nak", 
+        "Change-Filters-Request", 
+        "Change-Filters-Ack", 
+        "Change-Filters-Nak", 
+        "IP-Address-Allocate", 
+        "IP-Address-Release", 
+        "gcc 9.1.1 20190605", 
+        "GA*GOW", 
+        "GA+stack_clash", 
+        "GA*cf_protection", 
+        "GA*FORTIFY", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA+omit_frame_pointer", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "libkrad.so.0.0-1.17-40.fc31.riscv64.debug", 
+        "K/HQE4", 
+        ".shstrtab", 
+        ".note.gnu.build-id", 
+        ".gnu.hash", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_d", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".dynamic", 
+        ".gnu.build.attributes", 
+        ".gnu_debuglink", 
+        ".gnu_debugdata"
+    ], 
+    "metadata": {
+        "output": {}
+    }
+}
