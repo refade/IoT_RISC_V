@@ -1,0 +1,3291 @@
+{
+    "info": {
+        "added": 1626801966.195078, 
+        "started": 1626876629.36308, 
+        "duration": 800, 
+        "ended": 1626877430.056263, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2315467, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-07-21 14:19:20", 
+            "shutdown_on": "2021-07-21 14:23:49"
+        }, 
+        "platform": "windows", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "09c44e05ced604d7aafd2747646fcc5e222630e8", 
+            "name": "tssnvwrite", 
+            "type": "ELF 64-bit LSB shared object, UCB RISC-V, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-riscv64-lp64d.so.1, BuildID[sha1]=53bc79242655af2400de2bce9a1893d20c9c1669, for GNU/Linux 4.15.0, stripped", 
+            "sha256": "2478a65539205390c56e8831ae26d75acd636b4f7ca1068d821815d520c764ce", 
+            "urls": [], 
+            "crc32": "44853E4A", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/2478a65539205390c56e8831ae26d75acd636b4f7ca1068d821815d520c764ce", 
+            "ssdeep": null, 
+            "size": 55560, 
+            "sha512": "90b806e444bfd248dc5945787e848ae8cb851f238f2eb4a036a759116e26d85bb9aa9cede7ecb4683bdbbbc0ef311a3ec05c48519e55f5450d9dedb44332eeee", 
+            "md5": "8c7be43dc9d548978d2badd02708ba84"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "6073acc1-0b1d-4dd1-99f7-e2d893917858", 
+        "parent_file_sha256": null, 
+        "name": "2478a65539205390c56e8831ae26d75acd636b4f7ca1068d821815d520c764ce", 
+        "scan_date": 1626868066, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "probes_total": 16, 
+        "file_infos": {
+            "mimetype": "ELF 64-bit LSB shared object, UCB RISC-V, version 1 (SYSV)", 
+            "sha1": "09c44e05ced604d7aafd2747646fcc5e222630e8", 
+            "tags": [], 
+            "timestamp_first_scan": 1625688569.01, 
+            "timestamp_last_scan": 1626868084.19, 
+            "sha256": "2478a65539205390c56e8831ae26d75acd636b4f7ca1068d821815d520c764ce", 
+            "md5": "8c7be43dc9d548978d2badd02708ba84", 
+            "size": 55560
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-06-08_09"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18300.4", 
+                    "results": null, 
+                    "virus_database_version": "1.343.1173.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.38, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-05-05"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": -1, 
+                    "version": null, 
+                    "error": "job error"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 5.0, 
+                    "version": "8.3.62.226", 
+                    "results": null, 
+                    "virus_database_version": "8.18.36.236"
+                }, 
+                "Kaspersky (Windows)": {
+                    "status": 0, 
+                    "duration": 2.75, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-07-14 09:42:00 (full)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 8.04, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "9966"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 12.93, 
+                    "version": "5.74.0", 
+                    "results": null, 
+                    "virus_database_version": "5.83 (23 March 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.08, 
+                    "version": "11.1.9.2103151924", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26190"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.2, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.88854 (16/06/2021)"
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.28, 
+                    "version": "2021.1.0.10606", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Bitdefender Antivirus Scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 10.44, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "356e620d-557a-457e-98dd-362852b9cddf", 
+        "file_sha256": "2478a65539205390c56e8831ae26d75acd636b4f7ca1068d821815d520c764ce"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "tssnvwrite", 
+                "pid": 3848, 
+                "summary": {}, 
+                "first_seen": 1626801974.215847, 
+                "ppid": 3847
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "tssnvwrite", 
+                "pid": 3847, 
+                "summary": {}, 
+                "first_seen": 1626801973.667586, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:13 2021.667586 tssnvwrite@7fdff0c85c27[3847] execve(\"/tmp/tssnvwrite\", [\"/tmp/tssnvwrite\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tssnvwrite\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpmXHhNS\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c85c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tssnvwrite", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpmXHhNS"
+                            ], 
+                            "p0": "/tmp/tssnvwrite", 
+                            "p1": [
+                                "/tmp/tssnvwrite"
+                            ]
+                        }, 
+                        "time": 1626801973.667586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.204728 tssnvwrite@7fdff0c85c27[3847] brk(0x0) = 94908043689984\n", 
+                        "api": "brk", 
+                        "return_value": "94908043689984", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c85c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1626801974.204728
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.204801 tssnvwrite@7fdff0c869d7[3847] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1626801974.204801
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.205748 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1626801974.205748
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.205788 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214da0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214da0"
+                        }, 
+                        "time": 1626801974.205788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.205823 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fdff0c54000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c54000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.205823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.205858 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.205858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.205903 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1626801974.205903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.205939 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214f58, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214f58"
+                        }, 
+                        "time": 1626801974.205939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.205972 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214df0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214df0"
+                        }, 
+                        "time": 1626801974.205972
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206001 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdff0c52000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c52000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.206001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206037 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff0c4c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c4c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.206037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206071 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0c4d000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fdff0c4d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c4d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0c4d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1626801974.206071
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206110 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0c4f000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdff0c4f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c4f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0c4f000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1626801974.20611
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206146 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0c50000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdff0c50000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c50000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0c50000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1626801974.206146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206187 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.206187
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206223 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1626801974.206223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206256 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214f38, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214f38"
+                        }, 
+                        "time": 1626801974.206256
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206286 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214dd0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214dd0"
+                        }, 
+                        "time": 1626801974.206286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206315 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff0b2b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0b2b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.206315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206350 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff0b46000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fdff0b46000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1626801974.20635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206388 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0b46000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fdff0b46000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0b46000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0b46000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1626801974.206388
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206422 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0bc6000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fdff0bc6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0bc6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0bc6000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1626801974.206422
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206456 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0c49000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fdff0c49000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c49000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0c49000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1626801974.206456
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206493 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0c4b000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdff0c4b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0c4b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fdff0c4b000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.206493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206529 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.206529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206571 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1626801974.206571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206604 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214f18, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214f18"
+                        }, 
+                        "time": 1626801974.206604
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206633 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214db0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214db0"
+                        }, 
+                        "time": 1626801974.206633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206663 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff0b20000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0b20000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.206663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206697 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0b23000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdff0b23000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0b23000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0b23000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1626801974.206697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206733 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0b27000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fdff0b27000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0b27000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0b27000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1626801974.206733
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206768 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0b29000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fdff0b29000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0b29000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0b29000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1626801974.206768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206809 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.206809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206846 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1626801974.206846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206877 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214ef8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214ef8"
+                        }, 
+                        "time": 1626801974.206877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206906 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214d90) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214d90"
+                        }, 
+                        "time": 1626801974.206906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206938 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff09d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.206938
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.206971 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff09e1000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fdff09e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff09e1000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1626801974.206971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207008 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0a87000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fdff0a87000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0a87000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0a87000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1626801974.207008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207042 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0b1e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fdff0b1e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0b1e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0b1e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1626801974.207042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207082 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.207082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207121 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1626801974.207121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207153 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214ed8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214ed8"
+                        }, 
+                        "time": 1626801974.207153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207182 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214d70) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214d70"
+                        }, 
+                        "time": 1626801974.207182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207211 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff09b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.207211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207244 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff09bb000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdff09bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff09bb000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1626801974.207244
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207279 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff09cc000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fdff09cc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09cc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff09cc000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1626801974.207279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207312 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff09d0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fdff09d0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09d0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff09d0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1626801974.207312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207352 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.207352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207389 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1626801974.207389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207420 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214eb8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214eb8"
+                        }, 
+                        "time": 1626801974.20742
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207450 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214d50) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214d50"
+                        }, 
+                        "time": 1626801974.20745
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207479 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff0997000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0997000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.207479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207512 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff099e000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fdff099e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff099e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff099e000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1626801974.207512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207552 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff09ad000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fdff09ad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09ad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff09ad000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1626801974.207552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207586 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff09b2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fdff09b2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09b2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff09b2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1626801974.207586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207623 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff09b4000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdff09b4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff09b4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fdff09b4000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.207623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207659 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.207659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207696 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1626801974.207696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207727 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214e98, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214e98"
+                        }, 
+                        "time": 1626801974.207727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207756 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214d30) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214d30"
+                        }, 
+                        "time": 1626801974.207756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207785 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdff0995000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0995000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.207785
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207819 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff07aa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff07aa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.207819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207851 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff07cf000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fdff07cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff07cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff07cf000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1626801974.207851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207888 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0942000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fdff0942000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0942000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0942000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1626801974.207888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207922 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff098b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fdff098b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff098b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff098b000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1626801974.207922
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207959 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0991000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdff0991000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0991000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fdff0991000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.207959
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.207996 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.207996
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208041 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1626801974.208041
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208073 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214e78, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214e78"
+                        }, 
+                        "time": 1626801974.208073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208102 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214d10) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214d10"
+                        }, 
+                        "time": 1626801974.208102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208132 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff07a4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff07a4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.208132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208165 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff07a5000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fdff07a5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff07a5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff07a5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1626801974.208165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208203 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff07a7000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdff07a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff07a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff07a7000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1626801974.208203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208236 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff07a8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdff07a8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff07a8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff07a8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1626801974.208236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208275 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.208275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208313 tssnvwrite@7fdff0c86b0d[3847] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1626801974.208313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208345 tssnvwrite@7fdff0c86bd4[3847] read(4, 0x7ffc65214e58, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc65214e58"
+                        }, 
+                        "time": 1626801974.208345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208374 tssnvwrite@7fdff0c86943[3847] fstat(4, 0x7ffc65214cf0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214cf0"
+                        }, 
+                        "time": 1626801974.208374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208404 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdff0730000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0730000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.208404
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208437 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0732000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fdff0732000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0732000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0732000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1626801974.208437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208521 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff0784000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fdff0784000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff0784000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff0784000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1626801974.208521
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208561 tssnvwrite@7fdff0c86d03[3847] mmap2(0x7fdff07a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fdff07a2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff07a2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdff07a2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1626801974.208561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.208606 tssnvwrite@7fdff0c869f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c869f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.208606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.209306 tssnvwrite@7fdff0c86d03[3847] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdff072e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdff072e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.209306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.209352 tssnvwrite@7fdff0c6bf30[3847] arch_prctl(ARCH_SET_FS, 140599788499264) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c6bf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140599788499264"
+                        }, 
+                        "time": 1626801974.209352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210208 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff098b000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff098b000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1626801974.210208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210258 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff09b2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff09b2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.210258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210318 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff07a2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff07a2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.210318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210356 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff07a8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff07a8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.210356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210390 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff09d0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff09d0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.21039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210444 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff0b1e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff0b1e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.210444
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210481 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff0b29000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff0b29000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.210481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210701 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff0c49000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff0c49000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.210701
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.210751 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff0c50000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff0c50000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.210751
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213043 tssnvwrite@7fdff0c86db7[3847] mprotect(0x56517cfc0000, 196608, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56517cfc0000", 
+                            "p1": "196608"
+                        }, 
+                        "time": 1626801974.213043
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213093 tssnvwrite@7fdff0c86db7[3847] mprotect(0x7fdff0c94000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdff0c94000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.213093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213131 tssnvwrite@7fdff0c86d97[3847] munmap(0x7fdff0c54000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff0c86d97", 
+                        "arguments": {
+                            "p0": "0x7fdff0c54000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1626801974.213131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213186 tssnvwrite@7fdff099e8df[3847] set_tid_address(0x7fdff072f410) = 3847\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3847", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff099e8df", 
+                        "arguments": {
+                            "p0": "0x7fdff072f410"
+                        }, 
+                        "time": 1626801974.213186
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213218 tssnvwrite@7fdff099e94a[3847] set_robust_list(0x7fdff072f420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff099e94a", 
+                        "arguments": {
+                            "p0": "0x7fdff072f420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1626801974.213218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213258 tssnvwrite@7fdff09ab010[3847] rt_sigaction(0x20, {0x7fdff099e6c0, SA_SIGINFO|SA_RESTORER, 0x7fdff09aaf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09ab010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fdff099e6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fdff09aaf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1626801974.213258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213292 tssnvwrite@7fdff09ab010[3847] rt_sigaction(0x21, {0x7fdff099e760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fdff09aaf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09ab010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fdff099e760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fdff09aaf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1626801974.213292
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213359 tssnvwrite@7fdff099ea19[3847] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff099ea19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1626801974.213359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213409 tssnvwrite@7fdff08bcdf0[3847] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc65215b30) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08bcdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc65215b30", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1626801974.213409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213586 tssnvwrite@7fdff08bd2f7[3847] brk(0x0) = 94908043689984\n", 
+                        "api": "brk", 
+                        "return_value": "94908043689984", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08bd2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1626801974.213586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.213615 tssnvwrite@7fdff08bd2f7[3847] brk(0x5651803d1000) = 94908043825152\n", 
+                        "api": "brk", 
+                        "return_value": "94908043825152", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08bd2f7", 
+                        "arguments": {
+                            "p0": "0x5651803d1000"
+                        }, 
+                        "time": 1626801974.213615
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.214663 tssnvwrite@7fdff09a7b86[3847] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc65215a80, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09a7b86", 
+                        "arguments": {
+                            "p2": "0x7ffc65215a80", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1626801974.214663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.215590 tssnvwrite@7fdff08c14c3[3847] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fdfeff2d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdfeff2d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.21559
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.215630 tssnvwrite@7fdff08c1597[3847] mprotect(0x7fdfeff2e000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c1597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fdfeff2e000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1626801974.21563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.215679 tssnvwrite@7fdff08c7b11[3847] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fdff072cf70, 0x7fdff072d9d0, 0x7fdff072d9d0) = 3848\n", 
+                        "api": "clone", 
+                        "return_value": "3848", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c7b11", 
+                        "arguments": {
+                            "p2": "0x7fdff072d9d0", 
+                            "p3": "0x7fdff072d9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fdff072cf70"
+                        }, 
+                        "time": 1626801974.215679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.215776 tssnvwrite@7fdff09a7b86[3847] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09a7b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1626801974.215776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.218282 tssnvwrite@7fdff08bcdf0[3847] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc65215620) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08bcdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc65215620", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1626801974.218282
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.218338 tssnvwrite@7fdff08bc5c1[3847] openat(AT_FDCWD, \"/etc/qemu-binfmt/riscv64\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08bc5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/riscv64"
+                        }, 
+                        "time": 1626801974.218338
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.218390 tssnvwrite@7fdff088b247[3847] uname(0x7ffc652151a0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff088b247", 
+                        "arguments": {
+                            "p0": "0x7ffc652151a0"
+                        }, 
+                        "time": 1626801974.21839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.218427 tssnvwrite@7fdff09aa337[3847] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09aa337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1626801974.218427
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.218458 tssnvwrite@7fdff09a9d94[3847] read(3, 0x7ffc65215480, 64) = 64\n", 
+                        "api": "read", 
+                        "return_value": "64", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09a9d94", 
+                        "arguments": {
+                            "p2": "64", 
+                            "p0": "3", 
+                            "p1": "0x7ffc65215480"
+                        }, 
+                        "time": 1626801974.218458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.218490 tssnvwrite@7fdff09aa337[3847] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09aa337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1626801974.21849
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.219591 tssnvwrite@7fdff08c14c3[3847] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdfefeac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdfefeac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.219591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.219951 tssnvwrite@7fdff08c1597[3847] mprotect(0x56517d002000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c1597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56517d002000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1626801974.219951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.219993 tssnvwrite@7fdff08c1667[3847] madvise(0x56517d002000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c1667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56517d002000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1626801974.219993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220716 tssnvwrite@7fdff08b6d59[3847] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08b6d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1626801974.220716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220765 tssnvwrite@7fdff08b6613[3847] fstat(4, 0x7ffc65214ba0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08b6613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc65214ba0"
+                        }, 
+                        "time": 1626801974.220765
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220798 tssnvwrite@7fdff08b6fb4[3847] read(4, 0x5651803bc7a0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08b6fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5651803bc7a0"
+                        }, 
+                        "time": 1626801974.220798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220843 tssnvwrite@7fdff08bc3f7[3847] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08bc3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1626801974.220843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220884 tssnvwrite@7fdff08c12e9[3847] gettid() = 3847\n", 
+                        "api": "gettid", 
+                        "return_value": "3847", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c12e9", 
+                        "arguments": {}, 
+                        "time": 1626801974.220884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220915 tssnvwrite@7fdff08b6613[3847] fstat(3, 0x7ffc65215410) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08b6613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc65215410"
+                        }, 
+                        "time": 1626801974.220915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220946 tssnvwrite@7fdff088c717[3847] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff088c717", 
+                        "arguments": {}, 
+                        "time": 1626801974.220946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.220976 tssnvwrite@7fdff088c737[3847] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff088c737", 
+                        "arguments": {}, 
+                        "time": 1626801974.220976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221006 tssnvwrite@7fdff09a9d94[3847] read(3, 0x7ffc65215720, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09a9d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc65215720"
+                        }, 
+                        "time": 1626801974.221006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221047 tssnvwrite@7fdff08c14c3[3847] mmap2(0x4000000000, 57344, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4000000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x4000000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x4000000000", 
+                            "p1": "57344", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.221047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221082 tssnvwrite@7fdff08c14c3[3847] mmap2(0x4000000000, 57344, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4000000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x4000000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x4000000000", 
+                            "p1": "57344", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.221082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221133 tssnvwrite@7fdff08bd2f7[3847] brk(0x5651803f3000) = 94908043964416\n", 
+                        "api": "brk", 
+                        "return_value": "94908043964416", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08bd2f7", 
+                        "arguments": {
+                            "p0": "0x5651803f3000"
+                        }, 
+                        "time": 1626801974.221133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221177 tssnvwrite@7fdff08c14c3[3847] mmap2(0x4000000000, 49152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x4000000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x4000000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x4000000000", 
+                            "p1": "49152", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.221177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221213 tssnvwrite@7fdff08c14c3[3847] mmap2(0x400000c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 45056) = 0x400000c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x400000c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x400000c000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "45056"
+                        }, 
+                        "time": 1626801974.221213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221257 tssnvwrite@7fdff09a9e27[3847] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09a9e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1626801974.221257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221288 tssnvwrite@7fdff08c14c3[3847] mmap2(0x400000e000, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x400000e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x400000e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x400000e000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.221288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221320 tssnvwrite@7fdff08c14c3[3847] mmap2(0x400000e000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x400000e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x400000e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x400000e000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.22132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221418 tssnvwrite@7fdff08c1597[3847] mprotect(0x400000e000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c1597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x400000e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1626801974.221418
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221465 tssnvwrite@7fdff09aa55e[3847] openat(AT_FDCWD, \"/lib/ld-linux-riscv64-lp64d.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09aa55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux-riscv64-lp64d.so.1"
+                        }, 
+                        "time": 1626801974.221465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221523 tssnvwrite@7fdff08b7057[3847] write(2, \"/lib/ld-linux-riscv64-lp64d.so.1: No such fil\"..., 60) = 60\n", 
+                        "api": "write", 
+                        "return_value": "60", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08b7057", 
+                        "arguments": {
+                            "p2": "60", 
+                            "p0": "2", 
+                            "p1": "\"/lib/ld-linux-riscv64-lp64d.so.1: No such fil\"..."
+                        }, 
+                        "time": 1626801974.221523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221598 tssnvwrite@7fdff088b926[3847] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff088b926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1626801974.221598
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3847, 
+                        "raw": "Tue Jul 20 17:26:14 2021.221637 tssnvwrite@7fdff088b926[3847] futex(0x7fdff072f410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff088b926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fdff072f410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1626801974.221637
+                    }
+                ], 
+                "pid": 3847, 
+                "process_name": "tssnvwrite", 
+                "command_line": "/tmp/tssnvwrite", 
+                "first_seen": 1626801973.667586, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3848, 
+                        "raw": "Tue Jul 20 17:26:14 2021.215847 tssnvwrite@7fdff09a0117[3848] set_robust_list(0x7fdff072d9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09a0117", 
+                        "arguments": {
+                            "p0": "0x7fdff072d9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1626801974.215847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3848, 
+                        "raw": "Tue Jul 20 17:26:14 2021.215910 tssnvwrite@7fdff08c14c3[3848] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fdfe7f2d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdfe7f2d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1626801974.21591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3848, 
+                        "raw": "Tue Jul 20 17:26:14 2021.215965 tssnvwrite@7fdff08c1567[3848] munmap(0x7fdfe7f2d000, 864256) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c1567", 
+                        "arguments": {
+                            "p0": "0x7fdfe7f2d000", 
+                            "p1": "864256"
+                        }, 
+                        "time": 1626801974.215965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3848, 
+                        "raw": "Tue Jul 20 17:26:14 2021.216019 tssnvwrite@7fdff08c1567[3848] munmap(0x7fdfec000000, 66244608) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c1567", 
+                        "arguments": {
+                            "p0": "0x7fdfec000000", 
+                            "p1": "66244608"
+                        }, 
+                        "time": 1626801974.216019
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3848, 
+                        "raw": "Tue Jul 20 17:26:14 2021.216068 tssnvwrite@7fdff08c1597[3848] mprotect(0x7fdfe8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff08c1597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fdfe8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1626801974.216068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tssnvwrite", 
+                        "pid": 3848, 
+                        "raw": "Tue Jul 20 17:26:14 2021.216128 tssnvwrite@7fdff09aa440[3848] nanosleep([0.010000000], 0x7fdff072cdc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdff09aa440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fdff072cdc0"
+                        }, 
+                        "time": 1626801974.216128
+                    }
+                ], 
+                "pid": 3848, 
+                "process_name": "tssnvwrite", 
+                "command_line": "", 
+                "first_seen": 1626801974.215847, 
+                "ppid": 3847, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3847, 
+                "process_name": "tssnvwrite", 
+                "command_line": "/tmp/tssnvwrite", 
+                "first_seen": 1626801973.667586, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3848, 
+                        "process_name": "tssnvwrite", 
+                        "command_line": "", 
+                        "first_seen": 1626801974.215847, 
+                        "ppid": 3847, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-07-20 17:26:06,002 [root] DEBUG: Starting analyzer from: /tmp/tmpmXHhNS\n", 
+            "2021-07-20 17:26:06,003 [root] DEBUG: Storing results at: /tmp/UJLtkN\n", 
+            "2021-07-20 17:26:08,928 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-07-20 17:26:08,931 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-07-20 17:26:08,935 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-07-20 17:26:13,664 [lib.core.packages] INFO: Process startup took 4.72 seconds\n", 
+            "2021-07-20 17:26:13,665 [root] INFO: Added new process to list with pid: 3838\n", 
+            "2021-07-20 17:26:19,688 [root] INFO: Process with pid 3838 has terminated\n", 
+            "2021-07-20 17:26:19,690 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-07-20 17:26:22,779 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-07-20 17:26:22,781 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2021-07-20 17:30:03,148 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2021-07-20 17:30:03,149 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2021-07-21 14:14:50,336 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:15:20,380 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:15:50,424 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:16:20,470 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:16:50,514 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:17:20,559 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:17:50,578 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:18:20,621 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:18:50,662 [cuckoo.core.scheduler] DEBUG: Task #2315467: no machine available yet\n", 
+            "2021-07-21 14:19:20,713 [cuckoo.core.scheduler] INFO: Task #2315467: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2021-07-21 14:19:20,714 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2315467\n", 
+            "2021-07-21 14:19:20,757 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1228826 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2021-07-21 14:19:20,887 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2021-07-21 14:19:21,102 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2021-07-21 14:19:31,646 [cuckoo.core.guest] INFO: Starting analysis #2315467 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-07-21 14:19:32,649 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2021-07-21 14:19:33,655 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2021-07-21 14:19:34,663 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2021-07-21 14:19:35,668 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2021-07-21 14:19:35,686 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-07-21 14:19:35,698 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=70098)\n", 
+            "2021-07-21 14:19:35,832 [cuckoo.core.resultserver] DEBUG: Task #2315467: live log analysis.log initialized.\n", 
+            "2021-07-21 14:19:42,199 [cuckoo.core.resultserver] DEBUG: Task #2315467: File upload for 'shots/0001.jpg'\n", 
+            "2021-07-21 14:19:42,205 [cuckoo.core.resultserver] DEBUG: Task #2315467 uploaded file length: 171521\n", 
+            "2021-07-21 14:19:50,824 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:19:52,624 [cuckoo.core.resultserver] DEBUG: Task #2315467: File upload for 'logs/all.stap'\n", 
+            "2021-07-21 14:19:52,626 [cuckoo.core.resultserver] DEBUG: Task #2315467 uploaded file length: 19463\n", 
+            "2021-07-21 14:20:05,886 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:20:20,950 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:20:36,012 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:20:51,073 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:21:06,137 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:21:21,200 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:21:36,263 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:21:51,328 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:22:06,392 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:22:21,456 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:22:36,521 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:22:51,596 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:23:06,676 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:23:21,737 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2315467 still processing\n", 
+            "2021-07-21 14:23:33,783 [cuckoo.core.guest] INFO: Ubuntu1904x644: analysis completed successfully\n", 
+            "2021-07-21 14:23:33,792 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-07-21 14:23:33,858 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-07-21 14:23:42,743 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2315467/memory.dmp\n", 
+            "2021-07-21 14:23:42,744 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2021-07-21 14:23:49,364 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2315467\n", 
+            "2021-07-21 14:23:49,854 [cuckoo.core.scheduler] DEBUG: Released database task #2315467\n", 
+            "2021-07-21 14:23:49,932 [cuckoo.core.scheduler] INFO: Task #2315467: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux-riscv64-lp64d.so.1", 
+        "libibmtss.so.1", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "TSS_Execute", 
+        "TSS_SetProperty", 
+        "TSS_Delete", 
+        "TSS_TPM2B_PRIVATE_Marshalu", 
+        "TSS_TPM2B_Create", 
+        "TSS_RSAGeneratePublicToken", 
+        "TSS_Malloc", 
+        "TSS_RandBytes", 
+        "TSS_PrintAll", 
+        "TSS_ResponseCode_toString", 
+        "TSS_File_Open", 
+        "TSS_Create", 
+        "TSS_File_ReadBinaryFile", 
+        "TSS_TPM2B_StringCopy", 
+        "TSS_TPMT_PUBLIC_Unmarshalu", 
+        "TSS_TPMT_PUBLIC_Print", 
+        "TSS_TPMT_SENSITIVE_Marshalu", 
+        "libcrypto.so.1.1", 
+        "BN_num_bits", 
+        "ECDSA_SIG_free", 
+        "EVP_PKEY_new", 
+        "d2i_RSAPublicKey", 
+        "X509_verify", 
+        "X509_STORE_CTX_init", 
+        "ASN1_BIT_STRING_free", 
+        "X509_set_subject_name", 
+        "PEM_write_PUBKEY", 
+        "EC_KEY_get0_private_key", 
+        "EC_GROUP_set_asn1_flag", 
+        "BIO_read", 
+        "EVP_PKEY_get1_RSA", 
+        "EVP_sha256", 
+        "X509_getm_notBefore", 
+        "EVP_PKEY_base_id", 
+        "X509_get_pubkey", 
+        "X509_add_ext", 
+        "X509_EXTENSION_free", 
+        "X509_STORE_add_cert", 
+        "BIO_write", 
+        "X509_STORE_new", 
+        "X509_NAME_ENTRY_free", 
+        "X509_NAME_add_entry", 
+        "OBJ_txt2nid", 
+        "BN_bin2bn", 
+        "BIO_s_mem", 
+        "X509_STORE_free", 
+        "X509_NAME_free", 
+        "EVP_PKEY_assign", 
+        "EC_KEY_get0_public_key", 
+        "ECDSA_do_verify", 
+        "RSA_free", 
+        "X509_getm_notAfter", 
+        "X509_set_version", 
+        "X509_get_subject_name", 
+        "EC_KEY_new", 
+        "RSA_public_decrypt", 
+        "X509_free", 
+        "X509_NAME_ENTRY_create_by_NID", 
+        "EVP_PKEY_set1_EC_KEY", 
+        "PEM_write_bio_X509", 
+        "BIO_free", 
+        "X509V3_EXT_conf_nid", 
+        "RSA_verify", 
+        "EC_KEY_get0_group", 
+        "X509_NAME_new", 
+        "ECDSA_SIG_get0", 
+        "EC_GROUP_get_curve_name", 
+        "EVP_sha1", 
+        "i2d_X509", 
+        "EVP_sha384", 
+        "d2i_RSAPrivateKey", 
+        "X509_new", 
+        "PEM_read_bio_X509", 
+        "ECDSA_SIG_new", 
+        "PEM_write_X509", 
+        "X509_print_fp", 
+        "EC_GROUP_new_by_curve_name", 
+        "X509_NAME_oneline", 
+        "PEM_read_X509", 
+        "RSA_verify_PKCS1_PSS", 
+        "RSA_get0_factors", 
+        "X509_STORE_CTX_new", 
+        "ECDSA_SIG_set0", 
+        "X509_set_pubkey", 
+        "X509_get_serialNumber", 
+        "X509_print", 
+        "BIO_new", 
+        "EC_KEY_set_group", 
+        "X509_get_X509_PUBKEY", 
+        "X509_set_issuer_name", 
+        "BN_bn2bin", 
+        "RSA_get0_key", 
+        "PEM_read_PUBKEY", 
+        "d2i_X509", 
+        "BIO_ctrl", 
+        "X509_gmtime_adj", 
+        "EVP_PKEY_free", 
+        "X509_STORE_CTX_free", 
+        "X509_PUBKEY_get0_param", 
+        "d2i_ECDSA_SIG", 
+        "PEM_read_PrivateKey", 
+        "EC_KEY_set_public_key_affine_coordinates", 
+        "EVP_PKEY_get1_EC_KEY", 
+        "EC_KEY_free", 
+        "EVP_sha512", 
+        "BN_free", 
+        "d2i_ECPrivateKey", 
+        "EC_POINT_point2oct", 
+        "X509_verify_cert", 
+        "BN_to_ASN1_INTEGER", 
+        "X509_get_ext_d2i", 
+        "X509_sign", 
+        "d2i_X509_fp", 
+        "libc.so.6", 
+        "__printf_chk", 
+        "__isoc99_sscanf", 
+        "__stack_chk_fail", 
+        "putchar", 
+        "strtol", 
+        "strlen", 
+        "memset", 
+        "memcmp", 
+        "stdout", 
+        "memcpy", 
+        "fclose", 
+        "malloc", 
+        "__memcpy_chk", 
+        "__cxa_finalize", 
+        "setvbuf", 
+        "strcmp", 
+        "__libc_start_main", 
+        "ld-linux-riscv64-lp64d.so.1", 
+        "__stack_chk_guard", 
+        "GLIBC_2.27", 
+        "OPENSSL_1_1_0", 
+        "verbose", 
+        "F#8!E#41E#<QC#4", 
+        "D#8aC#4", 
+        "F#0!G#<1E#4QE#0aE#<", 
+        "F#<qC#4", 
+        "\"#8!##41##4", 
+        "iBiEao", 
+        "4#<Q3#8a3", 
+        "6#415#0A5#4", 
+        "|#8!}#41}#0A}#<Q{#4q{#8", 
+        "#0!]#8A[#0a[2", 
+        "\\#<1[#<qY#<", 
+        "nvwrite", 
+        "Runs TPM2_NV_Write", 
+        "hierarchy authorization (o, p)(default index authorization)]", 
+        "NV index handle", 
+        "[-pwdn", 
+        "authorization password (default empty)]", 
+        "hierarchy or NV index password", 
+        "data string]", 
+        "data file]", 
+        "data values, pinPass and pinLimit (4 bytes each)]", 
+        "if none is specified, a 0 byte write occurs", 
+        "-id is normally used for pin pass or pin fail indexes", 
+        "offset (default 0)]", 
+        "-se[0-2] session handle / attributes (default PWAP)", 
+        "command decrypt", 
+        "continue", 
+        "-pwdn option needs a value", 
+        "Missing parameter for -hia", 
+        "Missing parameter for -ha", 
+        "-ic option needs a value", 
+        "-if option needs a value", 
+        "-id option needs two values", 
+        "-off option needs a value", 
+        "Missing parameter for -se0", 
+        "Out of range session attributes for -se0", 
+        "Missing parameter for -se1", 
+        "Out of range session attributes for -se1", 
+        "Missing parameter for -se2", 
+        "Out of range session attributes for -se2", 
+        "%s is not a valid option", 
+        "NV index handle not specified or out of range, MSB not 01", 
+        "More than one input data source (-if, -ic, -id", 
+        "nvwrite: size %u greater than 0xffff", 
+        "nvwrite: writing %u bytes", 
+        "nvwrite: success", 
+        "nvwrite: failed, rc %08x", 
+        "%s%s%s", 
+        "Possible cause: missing nvreadpublic before nvwrite", 
+        "convertPemToEvpPrivKey: Error reading key file %s", 
+        "convertPemToEvpPubKey: Error reading key file %s", 
+        "convertEvpPkeyToEckey: Error extracting EC key from EVP_PKEY", 
+        "convertEvpPkeyToRsakey: EVP_PKEY_get1_RSA failed", 
+        "convertEcKeyToPrivateKeyBin:", 
+        "convertEcKeyToPublicKeyBin: Error extracting EC point from EC public key", 
+        "convertEcKeyToPublicKeyBin: Error extracting EC group from EC public key", 
+        "convertEcKeyToPublicKeyBin:", 
+        "convertEcPrivateKeyBinToPrivate: Only one result supported", 
+        "convertEcPrivateKeyBinToPrivate: Error, private key size %u not 32", 
+        "convertRsaPrivateKeyBinToPrivate: Only one result supported", 
+        "convertRsaPrivateKeyBinToPrivate: Error, private key modulus %d greater than %lu", 
+        "convertEcPublicKeyBinToPublic: public modulus expected 65 bytes, actual %u", 
+        "convertRsaPublicKeyBinToPublic: Error, public key modulus %d greater than %lu", 
+        "convertRsaPublicToEvpPubKey: EVP_PKEY failed", 
+        "convertRsaPublicToEvpPubKey: EVP_PKEY_assign_RSA failed", 
+        "convertEvpPubkeyToPem: Unable to open PEM file %s for write", 
+        "convertEvpPubkeyToPem: Unable to write PEM file %s", 
+        "verifyRSASignatureFromRSA: Unknown hash algorithm %04x", 
+        "verifyRSASignatureFromRSA: Bad signature", 
+        ": RSAPSS Bad signature", 
+        "verifyRSASignatureFromRSA: RSAPSS Bad signature", 
+        "verifyRSASignatureFromRSA: Bad signature scheme %04x", 
+        "verifyRSASignatureFromPem: EVP_PKEY_get1_RSA failed", 
+        "convertEcBinToTSignature: could not convert signature to ECDSA_SIG", 
+        "convertEcBinToTSignature: signature rBytes %u or sBytes %u greater than 32", 
+        "convertEcBinToTSignature: signature R", 
+        "convertEcBinToTSignature: signature S", 
+        "getEcCurve: Error, curve NID %u not supported ", 
+        "convertBin2Bn: Error in BN_bin2bn", 
+        "convertEcPublicToEvpPubKey: Error creating EC_KEY", 
+        "convertEcPublicToEvpPubKey: Error in EC_GROUP_new_by_curve_name", 
+        "convertEcPublicToEvpPubKey: Error in EC_KEY_set_group", 
+        "convertEcPublicToEvpPubKey: Error converting public key from X Y to EC_KEY format", 
+        "convertEcPublicToEvpPubKey: EVP_PKEY failed", 
+        "convertEcPublicToEvpPubKey: Error converting public key from EC to EVP format", 
+        "convertPublicToPEM: Unknown publicArea.type %04hx unsupported", 
+        "verifyEcSignatureFromEvpPubKey: EVP_PKEY_get1_EC_KEY failed", 
+        "verifyEcSignatureFromEvpPubKey: Error creating ECDSA_SIG_new", 
+        "verifyEcSignatureFromEvpPubKey: Error in ECDSA_SIG_set0()", 
+        "verifyEcSignatureFromEvpPubKey: Bad signature", 
+        "verifySignatureFromPem: Unknown signature algorithm %04x", 
+        "readNvBufferMax: wrong property returned: %08x", 
+        "readNvBufferMax: TPM max read/write: %u", 
+        "readNvBufferMax: combined max read/write: %u", 
+        "getcapability: failed, rc %08x", 
+        "nvreadpublic: failed, rc %08x", 
+        "getIndexData: index %08x", 
+        "nvread: failed, rc %08x", 
+        "getIndexX509Certificate: Could not parse X509 certificate", 
+        "getPubKeyFromX509Cert: X509_get_pubkey failed", 
+        "getPubKeyFromX509Cert: EVP_PKEY_get1_RSA failed", 
+        "getPubkeyFromDerCertFile: Error opening %s", 
+        "getPubkeyFromDerCertFile: Error converting %s", 
+        "getRootCertificateFilenames: Error opening list file %s", 
+        "getRootCertificateFilenames: Error allocating memory", 
+        "getRootCertificateFilenames: filename %s too long", 
+        "getRootCertificateFilenames: Root file name %u", 
+        "getCaStore: X509_store_new failed", 
+        "getCaStore: Error opening CA root certificate file %s", 
+        "getCaStore: Error reading CA root certificate file %s", 
+        "getCaStore: subject %u: %s", 
+        "verifyCertificate: X509_STORE_CTX_new failed", 
+        "verifyCertificate: Error in X509_STORE_CTX_init initializing verify context", 
+        "verifyCertificate: Error in X509_verify_cert verifying certificate", 
+        "EK certificate verified against the root", 
+        "verifyKeyUsage: Cannot find key usage", 
+        "verifyKeyUsage: Key usage length 0 bytes", 
+        "verifyKeyUsage: Key Encipherment", 
+        "ERROR: verifyKeyUsage: RSA Key usage %02x not Key Encipherment", 
+        "ERROR: verifyKeyUsage: ECC Key usage %02x not Key agreement or key encipherment", 
+        "ERROR: verifyKeyUsage: Public key is not RSA or ECC", 
+        "verifyKeyUsage: Key Agreement", 
+        "EK Nonce: ", 
+        "ERROR: convertX509ToDer: Error, certificate not NULL at entry", 
+        "ERROR: convertX509ToDer: Error in certificate serialization i2d_X509()", 
+        "convertX509ToDer: Serializing certificate", 
+        "convertX509ToEc: Entry", 
+        "ERROR: convertX509ToEc: X509_get_pubkey failed", 
+        "ERROR: convertX509ToEc: EVP_PKEY_get1_EC_KEY failed", 
+        "convertCertificatePubKey12: Could not extract X509_PUBKEY public key from X509 certificate", 
+        "convertCertificatePubKey12: Could not extract public key parameters from X509 certificate", 
+        "convertCertificatePubKey12: Could not convert to RSA structure", 
+        "convertCertificatePubKey12", 
+        "convertCertificatePubKey: Could not extract public key from X509 certificate, may be TPM 1.2", 
+        "convertCertificatePubKey: Public key from X509 certificate is not RSA", 
+        "convertCertificatePubKey: Could not extract RSA public key from X509 certificate", 
+        "Certificate public key:", 
+        "convertCertificatePubKey: Public key from X509 certificate is not EC", 
+        "convertCertificatePubKey: Could not extract EC public key from X509 certificate", 
+        "convertCertificatePubKey: ekCertIndex %08x (asymmetric algorithm) not supported", 
+        "No EK certificate", 
+        "convertPemToX509: Reading PEM certificate file %s", 
+        "convertPemToX509: Cannot open PEM file %s", 
+        "convertPemToX509: Cannot parse PEM certificate file %s", 
+        "ERROR: convertPemToX509: Error in certificate print X509_print_fp()", 
+        "convertPemMemToX509: pemCertificate", 
+        "convertPemMemToX509: BIO_new failed", 
+        "convertPemMemToX509: BIO_write failed", 
+        "convertPemMemToX509: PEM_read_bio_X509 failed", 
+        "convertX509ToPem: Writing PEM certificate file %s", 
+        "convertX509ToPem: Cannot open PEM file %s", 
+        "convertX509ToPem: Unable to write PEM file %s", 
+        "convertX509ToPemMem: BIO_new failed", 
+        "convertX509ToPemMem: PEM_write_bio_X509 failed", 
+        "ERROR: convertX509ToPemMem: Cannot malloc %lu", 
+        "ERROR: convertX509ToPemMem: BIO_read failed", 
+        "convertX509ToString: BIO_new failed", 
+        "convertX509ToString X509_print failed", 
+        "convertX509ToString: Cannot malloc %lu", 
+        "convertX509ToString BIO_read failed", 
+        "calculateNid: Error finding nid for %s", 
+        "createX509Name: Error in X509_NAME_new()", 
+        "createX509Name: Error creating entry for %s", 
+        "createX509Name: Error adding entry for %s", 
+        "startCertificate: Error in X509_set_version", 
+        "startCertificate: Adding certificate serial number", 
+        "startCertificate: Error in serial number BN_bin2bn", 
+        "startCertificate: Error setting certificate serial number", 
+        "startCertificate: Adding certificate issuer", 
+        "startCertificate: Error setting certificate issuer", 
+        "startCertificate: Adding certificate validity", 
+        "startCertificate: Error setting notBefore time", 
+        "startCertificate: Error setting notAfter time", 
+        "startCertificate: Adding certificate subject", 
+        "startCertificate: Error setting certificate subject", 
+        "addCertExtension: Error creating nid %i extension %s", 
+        "addCertExtension: Error adding nid %i extension %s", 
+        "addCertKeyRsa: add public key to certificate", 
+        "addCertKeyRsa: Error adding public key to certificate", 
+        "addCertKeyEcc: Error adding public key to certificate", 
+        "addCertSignatureRoot: Error, Cannot open %s", 
+        "addCertSignatureRoot: Error calling PEM_read_PrivateKey() from %s", 
+        "addCertSignatureRoot: Signing the certificate", 
+        "addCertSignature: Error signing certificate", 
+        "addCertSignatureRoot: Verifying the certificate", 
+        "addCertSignatureRoot: Error verifying certificate", 
+        "createCertificate: Error in X509_new", 
+        "createCertificate: public key algorithm %04x not supported", 
+        "critical,keyAgreement", 
+        "critical,keyEncipherment", 
+        "processRoot: No EK certificate", 
+        "processRoot: EK certificate did not verify", 
+        "processCreatePrimary: RSA NV nonce size %u > 256", 
+        "processCreatePrimary: EC NV nonce size %u > 32", 
+        "createprimary: failed, rc %08x", 
+        "flushcontext: failed, rc %08x", 
+        "createprimary: RSA public key", 
+        "createprimary: ECC public key x", 
+        "createprimary: ECC public key y", 
+        "processValidatePrimary: X509 certificate key length %u does not match output of createprimary %u", 
+        "processValidatePrimary: Public key from X509 certificate does not match output of createprimary", 
+        "processValidatePrimary: X509 certificate key length %u does not match output of createprimary x %u +y %u", 
+        "processValidatePrimary: Public key X from X509 certificate does not match output of createprimary", 
+        "processValidatePrimary: Public key Y from X509 certificate does not match output of createprimary", 
+        "processValidatePrimary: Public key from X509 certificate matches output of createprimary", 
+        "processPrimary: EK nonce not found, use default template", 
+        "countryName", 
+        "stateOrProvinceName", 
+        "localityName", 
+        "organizationName", 
+        "organizationalUnitName", 
+        "commonName", 
+        "emailAddress", 
+        "gcc 9.1.1 20190605", 
+        "GA*GOW", 
+        "GA+stack_clash", 
+        "GA*cf_protection", 
+        "GA*FORTIFY", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA+omit_frame_pointer", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA+stack_clash", 
+        "GA*cf_protection", 
+        "GA*GOW", 
+        "GA*FORTIFY", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA*GOW", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "GA*FORTIFY", 
+        "GA+GLIBCXX_ASSERTIONS", 
+        "tssnvwrite-1331-2.fc31.riscv64.debug", 
+        "|8Nc!\\/m", 
+        "&T)!5S", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.gnu.build-id", 
+        ".note.ABI-tag", 
+        ".gnu.hash", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".preinit_array", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".dynamic", 
+        ".sdata", 
+        ".gnu.build.attributes", 
+        ".gnu_debuglink", 
+        ".gnu_debugdata"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
