@@ -1,0 +1,375 @@
+{
+    "scans": {
+        "Bkav": {
+            "detected": false,
+            "version": "1.3.0.9899",
+            "result": null,
+            "update": "20210619"
+        },
+        "Lionic": {
+            "detected": false,
+            "version": "4.2",
+            "result": null,
+            "update": "20210620"
+        },
+        "ClamAV": {
+            "detected": false,
+            "version": "0.103.2.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "CMC": {
+            "detected": false,
+            "version": "2.10.2019.1",
+            "result": null,
+            "update": "20210506"
+        },
+        "CAT-QuickHeal": {
+            "detected": false,
+            "version": "14.00",
+            "result": null,
+            "update": "20210620"
+        },
+        "McAfee": {
+            "detected": false,
+            "version": "6.0.6.653",
+            "result": null,
+            "update": "20210620"
+        },
+        "Malwarebytes": {
+            "detected": false,
+            "version": "4.2.2.27",
+            "result": null,
+            "update": "20210620"
+        },
+        "VIPRE": {
+            "detected": false,
+            "version": "93440",
+            "result": null,
+            "update": "20210620"
+        },
+        "Sangfor": {
+            "detected": false,
+            "version": "2.9.0.0",
+            "result": null,
+            "update": "20210616"
+        },
+        "K7AntiVirus": {
+            "detected": false,
+            "version": "11.189.37499",
+            "result": null,
+            "update": "20210620"
+        },
+        "K7GW": {
+            "detected": false,
+            "version": "11.189.37499",
+            "result": null,
+            "update": "20210620"
+        },
+        "BitDefenderTheta": {
+            "detected": false,
+            "version": "7.2.37796.0",
+            "result": null,
+            "update": "20210618"
+        },
+        "Cyren": {
+            "detected": false,
+            "version": "6.3.0.2",
+            "result": null,
+            "update": "20210620"
+        },
+        "Symantec": {
+            "detected": false,
+            "version": "1.14.0.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "ESET-NOD32": {
+            "detected": false,
+            "version": "23495",
+            "result": null,
+            "update": "20210620"
+        },
+        "Baidu": {
+            "detected": false,
+            "version": "1.0.0.2",
+            "result": null,
+            "update": "20190318"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": false,
+            "version": "10.0.0.1040",
+            "result": null,
+            "update": "20210620"
+        },
+        "Avast": {
+            "detected": false,
+            "version": "21.1.5827.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "Cynet": {
+            "detected": false,
+            "version": "4.0.0.27",
+            "result": null,
+            "update": "20210620"
+        },
+        "Kaspersky": {
+            "detected": false,
+            "version": "21.0.1.45",
+            "result": null,
+            "update": "20210620"
+        },
+        "BitDefender": {
+            "detected": false,
+            "version": "7.2",
+            "result": null,
+            "update": "20210620"
+        },
+        "NANO-Antivirus": {
+            "detected": false,
+            "version": "1.0.146.25311",
+            "result": null,
+            "update": "20210620"
+        },
+        "ViRobot": {
+            "detected": false,
+            "version": "2014.3.20.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "MicroWorld-eScan": {
+            "detected": false,
+            "version": "14.0.409.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "Rising": {
+            "detected": false,
+            "version": "25.0.0.26",
+            "result": null,
+            "update": "20210620"
+        },
+        "Ad-Aware": {
+            "detected": false,
+            "version": "3.0.21.179",
+            "result": null,
+            "update": "20210620"
+        },
+        "Emsisoft": {
+            "detected": false,
+            "version": "2018.12.0.1641",
+            "result": null,
+            "update": "20210620"
+        },
+        "Comodo": {
+            "detected": false,
+            "version": "33640",
+            "result": null,
+            "update": "20210620"
+        },
+        "F-Secure": {
+            "detected": false,
+            "version": "12.0.86.52",
+            "result": null,
+            "update": "20210620"
+        },
+        "DrWeb": {
+            "detected": false,
+            "version": "7.0.49.9080",
+            "result": null,
+            "update": "20210620"
+        },
+        "Zillya": {
+            "detected": false,
+            "version": "2.0.0.4391",
+            "result": null,
+            "update": "20210618"
+        },
+        "TrendMicro": {
+            "detected": false,
+            "version": "11.0.0.1006",
+            "result": null,
+            "update": "20210620"
+        },
+        "McAfee-GW-Edition": {
+            "detected": false,
+            "version": "v2019.1.2+3728",
+            "result": null,
+            "update": "20210620"
+        },
+        "FireEye": {
+            "detected": false,
+            "version": "32.44.1.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "Sophos": {
+            "detected": false,
+            "version": "1.0.2.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "GData": {
+            "detected": false,
+            "version": "A:25.30019B:27.23434",
+            "result": null,
+            "update": "20210620"
+        },
+        "Jiangmin": {
+            "detected": false,
+            "version": "16.0.100",
+            "result": null,
+            "update": "20210620"
+        },
+        "Avira": {
+            "detected": false,
+            "version": "8.3.3.12",
+            "result": null,
+            "update": "20210620"
+        },
+        "MAX": {
+            "detected": false,
+            "version": "2019.9.16.1",
+            "result": null,
+            "update": "20210620"
+        },
+        "Antiy-AVL": {
+            "detected": false,
+            "version": "3.0.0.1",
+            "result": null,
+            "update": "20210620"
+        },
+        "Kingsoft": {
+            "detected": false,
+            "version": "2017.9.26.565",
+            "result": null,
+            "update": "20210620"
+        },
+        "Microsoft": {
+            "detected": false,
+            "version": "1.1.18300.4",
+            "result": null,
+            "update": "20210620"
+        },
+        "Gridinsoft": {
+            "detected": false,
+            "version": "1.0.45.138",
+            "result": null,
+            "update": "20210620"
+        },
+        "Arcabit": {
+            "detected": false,
+            "version": "1.0.0.886",
+            "result": null,
+            "update": "20210620"
+        },
+        "SUPERAntiSpyware": {
+            "detected": false,
+            "version": "5.6.0.1032",
+            "result": null,
+            "update": "20210619"
+        },
+        "ZoneAlarm": {
+            "detected": false,
+            "version": "1.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "Avast-Mobile": {
+            "detected": false,
+            "version": "210619-02",
+            "result": null,
+            "update": "20210620"
+        },
+        "AhnLab-V3": {
+            "detected": false,
+            "version": "3.20.2.10137",
+            "result": null,
+            "update": "20210620"
+        },
+        "Acronis": {
+            "detected": false,
+            "version": "1.1.1.82",
+            "result": null,
+            "update": "20210512"
+        },
+        "ALYac": {
+            "detected": false,
+            "version": "1.1.3.1",
+            "result": null,
+            "update": "20210620"
+        },
+        "TACHYON": {
+            "detected": false,
+            "version": "2021-06-20.02",
+            "result": null,
+            "update": "20210620"
+        },
+        "VBA32": {
+            "detected": false,
+            "version": "5.0.0",
+            "result": null,
+            "update": "20210618"
+        },
+        "Zoner": {
+            "detected": false,
+            "version": "0.0.0.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "Tencent": {
+            "detected": false,
+            "version": "1.0.0.1",
+            "result": null,
+            "update": "20210620"
+        },
+        "Yandex": {
+            "detected": false,
+            "version": "5.5.2.24",
+            "result": null,
+            "update": "20210619"
+        },
+        "Ikarus": {
+            "detected": false,
+            "version": "0.1.5.2",
+            "result": null,
+            "update": "20210620"
+        },
+        "MaxSecure": {
+            "detected": false,
+            "version": "1.0.0.1",
+            "result": null,
+            "update": "20210619"
+        },
+        "Fortinet": {
+            "detected": false,
+            "version": "6.2.142.0",
+            "result": null,
+            "update": "20210620"
+        },
+        "Panda": {
+            "detected": false,
+            "version": "4.6.4.2",
+            "result": null,
+            "update": "20210620"
+        },
+        "Qihoo-360": {
+            "detected": false,
+            "version": "1.0.0.1120",
+            "result": null,
+            "update": "20210620"
+        }
+    },
+    "scan_id": "609d3fb3f34019693518a5c528a4c3e7548a1875f13585dc3be096d8578a60f7-1624231767",
+    "sha1": "72be19eadab75a1010a8752f11b47dfa59434e49",
+    "resource": "609d3fb3f34019693518a5c528a4c3e7548a1875f13585dc3be096d8578a60f7",
+    "response_code": 1,
+    "scan_date": "2021-06-20 23:29:27",
+    "permalink": "https://www.virustotal.com/gui/file/609d3fb3f34019693518a5c528a4c3e7548a1875f13585dc3be096d8578a60f7/detection/f-609d3fb3f34019693518a5c528a4c3e7548a1875f13585dc3be096d8578a60f7-1624231767",
+    "verbose_msg": "Scan finished, information embedded",
+    "total": 60,
+    "positives": 0,
+    "sha256": "609d3fb3f34019693518a5c528a4c3e7548a1875f13585dc3be096d8578a60f7",
+    "md5": "b50c6e9bc38b9d9168cae928334a902f"
+}
