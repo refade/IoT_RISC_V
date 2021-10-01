@@ -33,75 +33,74 @@ Acronis, eScan, Palo Alto Networks, Sophos AV-Sophos, SentinelOne (Static-ML), S
 
 It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 3. We choose 3 of 1600 REWEMA malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are VirusShare_0d1b1736b6b210f5e036c35278db4fbc, VirusShare_0d2ca61588afc2c98798333dae466775 and VirusShare_0d00ec451b1aa695055f43e355442c89. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no a pattern, antiviruses give the names that they want, for example, a company can identify a malware as "Malware.1" and a second company identify it as "Malware12310". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
 
-###### Table 2 Results of 77 commercial antiviruses:
+###### Table 2 Results of 64 commercial antiviruses:
 
 Antivirus |	Deteccion (%) |	False Negative (%) |	Omission (%)
 --------- | ------------- | ------------------ | -------------
 Avast	| 24% | 	76% |	0% |
-AVG	24	1	75
-Kaspersky	21	79	0
-GData	21	78	1
-Microsoft	20	80	0
-ClamAV	18	81	1
-BitDefenderTheta	18	82	0
-Tencent	17	83	0
-Avast-Mobile	17	83	0
-Fortinet	17	83	0
-ZoneAlarm	16	84	0
-AhnLab-V3	15	85	0
-McAfee	14	86	0
-McAfee-GW-Edition	14	83	3
-TrendMicro-HouseCall	13	87	0
-BitDefender	13	87	0
-FireEye	13	87	0
-MicroWorld-eScan	13	87	0
-MAX	13	87	0
-Ad-Aware	13	87	0
-Emsisoft	13	87	0
-ALYac	12	80	8
-TrendMicro	12	88	0
-Avira	11	89	0
-Sophos	11	86	3
-Cynet	11	88	1
-Sangfor	11	85	4
-Rising	10	90	0
-Cyren	9	91	0
-Lionic	8	90	2
-Ikarus	8	92	0
-Symantec	7	89	4
-MaxSecure	7	92	1
-Arcabit	6	94	0
-Bkav	2	98	0
-CMC	0	100	0
-VBA32	0	100	0
-F-Prot	0	3	97
-Babable	0	2	98
-CAT-QuickHeal	0	100	0
-Qihoo-360	0	100	0
-Panda	0	100	0
-Malwarebytes	0	100	0
-VIPRE	0	100	0
-K7AntiVirus	0	100	0
-K7GW	0	100	0
-Yandex	0	100	0
-Baidu	0	100	0
-Zoner	0	100	0
-ESET-NOD32	0	100	0
-Jiangmin	0	100	0
-NANO-Antivirus	0	100	0
-Acronis	0	99	1
-SUPERAntiSpyware	0	100	0
-TACHYON	0	100	0
-Comodo	0	99	1
-F-Secure	0	100	0
-ViRobot	0	100	0
-DrWeb	0	100	0
-Gridinsoft	0	99	1
-Kingsoft	0	100	0
-Antiy-AVL	0	92	8
-Zillya	0	98	2
-TotalDefense	0	1	99
-
+AVG | 24% | 1% | 75% | 
+Kaspersky | 21% | 79% | 0% | 
+GData | 21% | 78% | 1% | 
+Microsoft | 20% | 80% | 0% | 
+ClamAV | 18% | 81% | 1% | 
+BitDefenderTheta | 18% | 82% | 0% | 
+Tencent | 17% | 83% | 0% | 
+Avast-Mobile | 17% | 83% | 0% | 
+Fortinet | 17% | 83% | 0% | 
+ZoneAlarm | 16% | 84% | 0% | 
+AhnLab-V3 | 15% | 85% | 0% | 
+McAfee | 14% | 86% | 0% | 
+McAfee-GW-Edition | 14% | 83% | 3% | 
+TrendMicro-HouseCall | 13% | 87% | 0% | 
+BitDefender | 13% | 87% | 0% | 
+FireEye | 13% | 87% | 0% | 
+MicroWorld-eScan | 13% | 87% | 0% | 
+MAX | 13% | 87% | 0% | 
+Ad-Aware | 13% | 87% | 0% | 
+Emsisoft | 13% | 87% | 0% | 
+ALYac | 12% | 80% | 8% | 
+TrendMicro | 12% | 88% | 0% | 
+Avira | 11% | 89% | 0% | 
+Sophos | 11% | 86% | 3% | 
+Cynet | 11% | 88% | 1% | 
+Sangfor | 11% | 85% | 4% | 
+Rising | 10% | 90% | 0% | 
+Cyren | 9% | 91% | 0% | 
+Lionic | 8% | 90% | 2% | 
+Ikarus | 8% | 92% | 0% | 
+Symantec | 7% | 89% | 4% | 
+MaxSecure | 7% | 92% | 1% | 
+Arcabit | 6% | 94% | 0% | 
+Bkav | 2% | 98% | 0% | 
+CMC | 0% | 100% | 0% | 
+VBA32 | 0% | 100% | 0% | 
+F-Prot | 0% | 3% | 97% | 
+Babable | 0% | 2% | 98% | 
+CAT-QuickHeal | 0% | 100% | 0% | 
+Qihoo-360 | 0% | 100% | 0% | 
+Panda | 0% | 100% | 0% | 
+Malwarebytes | 0% | 100% | 0% | 
+VIPRE | 0% | 100% | 0% | 
+K7AntiVirus | 0% | 100% | 0% | 
+K7GW | 0% | 100% | 0% | 
+Yandex | 0% | 100% | 0% | 
+Baidu | 0% | 100% | 0% | 
+Zoner | 0% | 100% | 0% | 
+ESET-NOD32 | 0% | 100% | 0% | 
+Jiangmin | 0% | 100% | 0% | 
+NANO-Antivirus | 0% | 100% | 0% | 
+Acronis | 0% | 99% | 1% | 
+SUPERAntiSpyware | 0% | 100% | 0% | 
+TACHYON | 0% | 100% | 0% | 
+Comodo | 0% | 99% | 1% | 
+F-Secure | 0% | 100% | 0% | 
+ViRobot | 0% | 100% | 0% | 
+DrWeb | 0% | 100% | 0% | 
+Gridinsoft | 0% | 99% | 1% | 
+Kingsoft | 0% | 100% | 0% | 
+Antiy-AVL | 0% | 92% | 8% | 
+Zillya | 0% | 98% | 2% | 
+TotalDefense | 0% | 1% | 99% | 
 
 ###### Table 3 Miscellaneous classifications of commercial antiviruses:
 
