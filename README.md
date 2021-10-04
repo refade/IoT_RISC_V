@@ -104,73 +104,72 @@ TotalDefense | 0% | 1% | 99% |
 
 ###### Table 3 Miscellaneous classifications of commercial antiviruses:
 
-Antivírus |	VirusShare_0d1b1736b6b210f5e036c35278db4fbc |	VirusShare_0d2ca61588afc2c98798333dae466775 |	VirusShare_0d00ec451b1aa695055f43e355442c89
+Antivirus |	2bec093105081bdadd311c704366fa3 |	0db6c39a7f13a6a4afe28fbf615263f |	024069b370a21a9ff6b5eed9377ab28
 --------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
-Avast
-AVG
-Kaspersky
-GData
-Microsoft
-ClamAV
-BitDefenderTheta
-Tencent
-Avast-Mobile
-Fortinet
-ZoneAlarm
-AhnLab-V3
-McAfee
-McAfee-GW-Edition
-TrendMicro-HouseCall
-BitDefender
-FireEye
-MicroWorld-eScan
-MAX
-Ad-Aware
-Emsisoft
-ALYac
-TrendMicro
-Avira
-Sophos
-Cynet
-Sangfor
-Rising
-Cyren
-Lionic
-Ikarus
-Symantec
-MaxSecure
-Arcabit
-Bkav
-CMC
-VBA32
-F-Prot
-Babable
-CAT-QuickHeal
-Qihoo-360
-Panda
-Malwarebytes
-VIPRE
-K7AntiVirus
-K7GW
-Yandex
-Baidu
-Zoner
-ESET-NOD32
-Jiangmin
-NANO-Antivirus
-Acronis
-SUPERAntiSpyware
-TACHYON
-Comodo
-F-Secure
-ViRobot
-DrWeb
-Gridinsoft
-Kingsoft
-Antiy-AVL
-Zillya
-TotalDefense
-
+Avast | ELF:Gafgyt-EP [Trj] | ELF:Tsunami-CU [Trj] | ELF:Flooder-NU [Trj] | 
+AVG | ELF:Gafgyt-EP [Trj] | ELF:Tsunami-CU [Trj] | ELF:Flooder-NU [Trj] | 
+Kaspersky | HEUR:Backdoor.Linux.Gafgyt.aj | HEUR:Backdoor.Linux.Tsunami.bh | HEUR:Backdoor.Linux.Gafgyt.b | 
+GData | Linux.Trojan-DDoS.Lightaidra.A | Linux.Backdoor.Tsunami.B | Gen:Variant.Backdoor.Linux.Gafgyt.1 | 
+Microsoft | DDoS:Linux/Lightaidra | Backdoor:Linux/Tsunami.C!MTB | Backdoor:Linux/Shellshock.A | 
+ClamAV | Unix.Trojan.Tsunami-6981155-0 | Win.Trojan.Tsunami-5 | Legacy.Trojan.Agent-37003 | 
+BitDefenderTheta | Gen:NN.Mirai.34796 | False Negative | Gen:NN.Mirai.34796 | 
+Tencent | Backdoor.Linux.Gafgyt.aqa | Backdoor.Linux.Tsunami.x | Trojan.Linux.Gafgyt.f | 
+Avast-Mobile | ELF:Gafgyt-DS [Trj] | ELF:Tsunami-FP [Trj] | ELF:Mirai-BIV [Trj] | 
+Fortinet | ELF/Lightaidra.A!tr | False Negative | Linux/Gafgyt.B!tr | 
+ZoneAlarm | HEUR:Backdoor.Linux.Gafgyt.aj | HEUR:Backdoor.Linux.Tsunami.bq | HEUR:Backdoor.Linux.Gafgyt.d | 
+AhnLab-V3 | Linux/Gafgyt03.Gen | Linux/Tsunami.Gen | Linux/Gafgyt.Gen | 
+McAfee | RDN/Generic BackDoor | Linux64/DDoS-Kaiten.gen.a | Linux/Gafgyt.h | 
+McAfee-GW-Edition | False Negative | Linux64/DDoS-Kaiten.gen.a | Linux/Gafgyt.h | 
+TrendMicro-HouseCall | TROJ_GEN.R002C0DGH21 | ELF_KAITEN.SME | ELF_BASHLITE.SM | 
+BitDefender | Gen:Variant.Backdoor.Linux.Gafgyt.1 | Gen:Variant.Backdoor.Linux.Tsunami.1 | Gen:Variant.Backdoor.Linux.Gafgyt.1 | 
+FireEye | Gen:Variant.Backdoor.Linux.Gafgyt.1 | Gen:Variant.Backdoor.Linux.Tsunami.1 | Gen:Variant.Backdoor.Linux.Gafgyt.1 | 
+MicroWorld-eScan | Gen:Variant.Backdoor.Linux.Gafgyt.1 | Gen:Variant.Backdoor.Linux.Tsunami.1 | Gen:Variant.Backdoor.Linux.Gafgyt.1 | 
+MAX | malware (ai score=86) | malware (ai score=88) | malware (ai score=83) | 
+Ad-Aware | Gen:Variant.Backdoor.Linux.Gafgyt.1 | Gen:Variant.Backdoor.Linux.Tsunami.1 | Gen:Variant.Backdoor.Linux.Gafgyt.1 | 
+Emsisoft | Gen:Variant.Backdoor.Linux.Gafgyt.1 (B) | Gen:Variant.Backdoor.Linux.Tsunami.1 (B) | Gen:Variant.Backdoor.Linux.Gafgyt.1 (B) | 
+ALYac | Gen:Variant.Backdoor.Linux.Gafgyt.1 | Gen:Variant.Backdoor.Linux.Tsunami.1 | Gen:Variant.Backdoor.Linux.Gafgyt.1 | 
+TrendMicro | TROJ_GEN.R002C0DGH21 | ELF_KAITEN.SME | ELF_BASHLITE.SM | 
+Avira | DDOS/LNX.Lightaidra.fjima | False Negative | False Negative | 
+Sophos | Linux/DDoS-BI | Linux/Tsunami-A | Linux/DDoS-BI | 
+Cynet | Malicious (score: 99) | False Negative | False Negative | 
+Sangfor | Malware.ELF-Script.Save.c4f9db61 | Malware.ELF-Script.Save.993f62de | False Negative | 
+Rising | Backdoor.Gafgyt/Linux!1.A512 (CLASSIC) | Backdoor.Tsunami/Linux!1.A1B2 (CLASSIC) | Backdoor.Gafgyt/Linux!1.A480 (CLASSIC) | 
+Cyren | E64/Gafgyt.C.gen!Camelot | False Negative | False Negative | 
+Lionic | Trojan.Linux.Gafgyt.m!c | False Negative | False Negative | 
+Ikarus | Trojan.Linux.Gafgyt | False Negative | False Negative | 
+Symantec | Trojan.Gen.NPE | Linux.Backdoor.Kaiten | False Negative | 
+MaxSecure | Trojan.Malware.121218.susgen | False Negative | False Negative | 
+Arcabit | False Negative | Trojan.Backdoor.Linux.Tsunami.1 | Trojan.Backdoor.Linux.Gafgyt.1 | 
+Bkav | False Negative | False Negative | False Negative | 
+CMC | False Negative | False Negative | False Negative | 
+VBA32 | False Negative | False Negative | False Negative | 
+F-Prot | Omission | Omission | Omission | 
+Babable | Omission | Omission | Omission | 
+CAT-QuickHeal | False Negative | False Negative | False Negative | 
+Qihoo-360 | False Negative | False Negative | False Negative | 
+Panda | False Negative | False Negative | False Negative | 
+Malwarebytes | False Negative | False Negative | False Negative | 
+VIPRE | False Negative | False Negative | False Negative | 
+K7AntiVirus | False Negative | False Negative | False Negative | 
+K7GW | False Negative | False Negative | False Negative | 
+Yandex | False Negative | False Negative | False Negative | 
+Baidu | False Negative | False Negative | False Negative | 
+Zoner | False Negative | False Negative | False Negative | 
+ESET-NOD32 | False Negative | False Negative | False Negative | 
+Jiangmin | False Negative | False Negative | False Negative | 
+NANO-Antivirus | False Negative | False Negative | False Negative | 
+Acronis | False Negative | False Negative | False Negative | 
+SUPERAntiSpyware | False Negative | False Negative | False Negative | 
+TACHYON | False Negative | False Negative | False Negative | 
+Comodo | False Negative | False Negative | False Negative | 
+F-Secure | False Negative | False Negative | False Negative | 
+ViRobot | False Negative | False Negative | False Negative | 
+DrWeb | False Negative | False Negative | False Negative | 
+Gridinsoft | False Negative | False Negative | False Negative | 
+Kingsoft | False Negative | False Negative | False Negative | 
+Antiy-AVL | False Negative | False Negative | False Negative | 
+Zillya | False Negative | False Negative | False Negative | 
+TotalDefense | Omission | Omission | Omission | 
 
 ## Materials and Methods
 
