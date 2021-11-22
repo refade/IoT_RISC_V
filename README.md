@@ -182,7 +182,7 @@ The benign samples were extracted from GNU/Linux Fedora for RISC-V architecture,
 
 ## Dynamic Feature Extraction
 
-The features of 32-bit RISC-V files originate through the dynamic analysis of suspicious files. Therefore, in our methodology, the malware is executed in order to infect, intentionally, the GNU/Linux audited, in real time (dynamic), by the Cuckoo Sandbox. In total, 2,793 features are generated of each 32-bit ARM file, regarding the monitoring of the suspect file in the proposed controlled environment. Next, the groups of features are detailed.
+The features of 32-bit RISC-V files originate through the dynamic analysis of suspicious files. Therefore, in our methodology, the malware is executed in order to infect, intentionally, the GNU/Linux audited, in real time (dynamic), by the Cuckoo Sandbox. In total, 868 features are generated of each 32-bit ARM file, regarding the monitoring of the suspect file in the proposed controlled environment. Next, the groups of features are detailed.
 
 ######	Features related to Code Injection, a technique used by an attacker to introduce code into vulnerable programs and change their behavior. The auditory checks whether the tested file try to:
 -	execute a process and inject code while it is uncompressed;
